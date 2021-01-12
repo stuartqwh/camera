@@ -1,4 +1,5 @@
 import cv2
+import time
 cam = cv2.VideoCapture(0)
 while cam.isOpened():
     ret, frame1 = cam.read()
